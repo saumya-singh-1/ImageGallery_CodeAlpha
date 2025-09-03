@@ -19,6 +19,7 @@ It is a **responsive image gallery web application** that allows users to view i
 ## 🚀 Live Demo
   
 🔗 [GitHub Repository](https://github.com/saumya-singh-1/ImageGallery)
+🔗 [View Live Project](https://saumya-singh-1.github.io/ImageGallery_CodeAlpha/)
 
 ---
 
@@ -37,6 +38,15 @@ It is a **responsive image gallery web application** that allows users to view i
 
 ### Lightbox View  
 ![Lightbox Screenshot](./screenshots/ss-2.jpg)
+
+### Phone View (Header)
+![Phone Veiw Screenshot](./screenshots/ss-3.jpg)
+
+### Phone View (Footer)
+![Phone View Screenshot](./screenshots/ss-4.jpg)
+
+### Phone Lightbox view
+![Phone Lighbox View Screenshot](./screenshots/ss-5.jpg)
 
 ---
 
