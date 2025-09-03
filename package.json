@@ -1,0 +1,46 @@
+{
+  "name": "beautiful-image-gallery",
+  "version": "1.0.0",
+  "description": "A modern, responsive image gallery built with HTML, CSS, and JavaScript featuring advanced filtering, lightbox viewing, and smooth animations.",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000",
+    "dev": "live-server --port=8000"
+  },
+  "keywords": [
+    "image-gallery",
+    "lightbox",
+    "responsive",
+    "css-grid",
+    "javascript",
+    "html5",
+    "css3",
+    "filtering",
+    "animations",
+    "touch-gestures"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/beautiful-image-gallery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/beautiful-image-gallery/issues"
+  },
+  "homepage": "https://github.com/yourusername/beautiful-image-gallery#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ]
+} 
