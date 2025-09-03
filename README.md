@@ -18,7 +18,6 @@ It is a **responsive image gallery web application** that allows users to view i
 
 ## 🚀 Live Demo
   
-🔗 [GitHub Repository](https://github.com/saumya-singh-1/ImageGallery)
 🔗 [View Live Project](https://saumya-singh-1.github.io/ImageGallery_CodeAlpha/)
 
 ---
