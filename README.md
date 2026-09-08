@@ -53,7 +53,7 @@ It is a **responsive image gallery web application** that allows users to view i
 
 - **Saumya Singh**  
   GitHub: [@saumya-singh-1](https://github.com/saumya-singh-1)  
-  LinkedIn: [@saumyasingh](https://www.linkedin.com/in/saumya-singh-0256b5378/)  
+  LinkedIn: [@saumyasingh](https://www.linkedin.com/in/saumya-singh-946b63321/)  
 
 ---
 
