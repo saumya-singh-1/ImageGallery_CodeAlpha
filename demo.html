@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery Demo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .demo-header {
+      background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 100%);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      margin-bottom: 30px;
+    }
+    
+    .demo-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin: 40px 0;
+    }
+    
+    .feature-card {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .feature-card i {
+      font-size: 3rem;
+      color: #4ecdc4;
+      margin-bottom: 20px;
+    }
+    
+    .feature-card h3 {
+      color: #333;
+      margin-bottom: 15px;
+    }
+    
+    .feature-card p {
+      color: #666;
+      line-height: 1.6;
+    }
+    
+    .cta-button {
+      display: inline-block;
+      background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: 600;
+      margin: 20px 0;
+      transition: all 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    }
+    
+    .instructions {
+      background: #f8f9fa;
+      padding: 30px;
+      border-radius: 15px;
+      margin: 30px 0;
+    }
+    
+    .instructions h3 {
+      color: #333;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    .instructions ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .instructions li {
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+      color: #555;
+    }
+    
+    .instructions li:before {
+      content: '✓';
+      color: #4ecdc4;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="demo-header">
+    <h1><i class="fas fa-images"></i> Image Gallery Demo</h1>
+    <p>Experience the beautiful and responsive image gallery</p>
+    <a href="index.html" class="cta-button">
+      <i class="fas fa-external-link-alt"></i> View Full Gallery
+    </a>
+  </div>
+
+  <div class="demo-content">
+    <div class="feature-grid">
+      <div class="feature-card">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Responsive Design</h3>
+        <p>Perfectly adapts to all screen sizes from mobile to desktop with smooth transitions and touch-friendly controls.</p>
+      </div>
+      
+      <div class="feature-card">
+        <i class="fas fa-filter"></i>
+        <h3>Smart Filtering</h3>
+        <p>Filter images by category and apply stunning visual effects like grayscale, sepia, and color transformations.</p>
+      </div>
+      
+      <div class="feature-card">
+        <i class="fas fa-expand-arrows-alt"></i>
+        <h3>Lightbox Viewing</h3>
+        <p>Click any image to view in full-screen lightbox with navigation, keyboard shortcuts, and touch gestures.</p>
+      </div>
+      
+      <div class="feature-card">
+        <i class="fas fa-magic"></i>
+        <h3>Smooth Animations</h3>
+        <p>Beautiful fade-in effects, hover animations, and smooth transitions that create an engaging user experience.</p>
+      </div>
+      
+      <div class="feature-card">
+        <i class="fas fa-keyboard"></i>
+        <h3>Keyboard Navigation</h3>
+        <p>Full keyboard support with arrow keys for navigation, ESC to close, and accessible focus indicators.</p>
+      </div>
+      
+      <div class="feature-card">
+        <i class="fas fa-rocket"></i>
+        <h3>Performance Optimized</h3>
+        <p>Lazy loading, efficient animations, and optimized code for fast loading and smooth performance.</p>
+      </div>
+    </div>
+
+    <div class="instructions">
+      <h3><i class="fas fa-info-circle"></i> How to Use the Gallery</h3>
+      <ul>
+        <li><strong>Browse Images:</strong> Scroll through the gallery to see all available images</li>
+        <li><strong>Filter by Category:</strong> Click category buttons (All, Nature, City, Landscape) to filter images</li>
+        <li><strong>Apply Effects:</strong> Use filter buttons to change image appearance (Normal, Grayscale, Sepia, etc.)</li>
+        <li><strong>View in Lightbox:</strong> Click any image to open in full-screen lightbox mode</li>
+        <li><strong>Navigate:</strong> Use arrow buttons or keyboard arrows (← →) to move between images</li>
+        <li><strong>Close Lightbox:</strong> Press ESC key, click X button, or click outside the image</li>
+        <li><strong>Mobile Gestures:</strong> Swipe left/right on mobile devices to navigate</li>
+        <li><strong>Hover Effects:</strong> Hover over images to see titles and descriptions</li>
+      </ul>
+    </div>
+
+    <div style="text-align: center; margin: 40px 0;">
+      <h3>Ready to Explore?</h3>
+      <p>Click the button below to experience the full image gallery with all features!</p>
+      <a href="index.html" class="cta-button">
+        <i class="fas fa-images"></i> Launch Image Gallery
+      </a>
+    </div>
+  </div>
+
+  <script>
+    // Add some interactive elements to the demo
+    document.addEventListener('DOMContentLoaded', () => {
+      // Animate feature cards on scroll
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      };
+      
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, observerOptions);
+      
+      document.querySelectorAll('.feature-card').forEach(card => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(30px)';
+        card.style.transition = 'all 0.6s ease-out';
+        observer.observe(card);
+      });
+      
+      // Add click effects to CTA buttons
+      document.querySelectorAll('.cta-button').forEach(button => {
+        button.addEventListener('click', function(e) {
+          // Add ripple effect
+          const ripple = document.createElement('span');
+          const rect = this.getBoundingClientRect();
+          const size = Math.max(rect.width, rect.height);
+          const x = e.clientX - rect.left - size / 2;
+          const y = e.clientY - rect.top - size / 2;
+          
+          ripple.style.width = ripple.style.height = size + 'px';
+          ripple.style.left = x + 'px';
+          ripple.style.top = y + 'px';
+          ripple.classList.add('ripple');
+          
+          this.appendChild(ripple);
+          
+          setTimeout(() => {
+            ripple.remove();
+          }, 600);
+        });
+      });
+    });
+  </script>
+</body>
+</html> 
